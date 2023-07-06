@@ -1,14 +1,14 @@
 import React from 'react';
-import './navbar.css';
+import './style.css';
 
 export default function Navbar({updatePage}) {
 
-  const pages = ['Home', 'Map', 'Passport'];
+  const pages = ['Домашняя страница', 'Паспорт', 'Конструктор маршрутов'];
 
   return (
     <div>
       <nav>
-        <h1 onClick={() => {updatePage(0)}}>LOGO</h1>
+        <h1 onClick={() => {updatePage(0)}}>Дом-Школа-Дом</h1>
         <ul>
           {pages.map((title, index) => 
             (<li key={index} onClick={() => {updatePage(index)}}><h2>{title}</h2></li>)

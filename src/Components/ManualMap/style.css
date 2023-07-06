@@ -1,0 +1,15 @@
+.manual {
+    border: medium solid gray;
+    width: 500px;
+    height: 785px;
+    position: absolute;
+    top: 111.81px;
+    left: 1270px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-left: 12px;
+}
+
+.help-tool-img {
+    width: 80%;
+}

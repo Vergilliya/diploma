@@ -1,0 +1,23 @@
+img {
+    width: 40px;
+    height: 40px;
+}
+
+.button-img {
+    border: 2px solid gray;
+}
+
+.button-img:hover {
+    border: 2px solid red;
+}
+
+.assets {
+    margin: 20px 0 20px 0px;
+    margin-left: 50px;
+    /* если каждый объект высотой 40px */
+    width: 920px;
+    height: 160px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: medium solid gray;
+}

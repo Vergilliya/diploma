@@ -2,8 +2,11 @@
   "name": "project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Vergilliya.github.io/diploma", 
+  "homepage": "http://Vergilliya.github.io/diploma",
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.13.4",
     "@pbe/react-yandex-maps": "^1.2.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -14,10 +17,7 @@
     "pizzip": "^3.1.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-screen-capture": "^1.0.1",
     "react-scripts": "5.0.1",
-    "use-react-screenshot": "^3.0.0",
-    "use-screenshot-hook": "^1.0.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

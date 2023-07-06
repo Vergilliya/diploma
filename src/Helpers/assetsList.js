@@ -64,8 +64,8 @@ import asset_6_12_2 from './../Img/assets/6.12.2.png';
 
 const assets = [{img: asset_0,
                  hint: ''},
-                 {img: asset_0_1,
-                    hint: 'line'},
+                {img: asset_0_1,
+                 hint: 'Установка маршрута'},
                 {img: asset_1_20,
                  hint: '1.20. Впереди пешеходный переход.'},
                 {img: asset_1_21,

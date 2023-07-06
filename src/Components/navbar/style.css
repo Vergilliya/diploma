@@ -2,12 +2,16 @@ nav {
     display: flex;
     align-items: center;
     padding: 10px;
-    background-color: #eee;
-  }
+    background-color: #39f;
+    color: white;
+}
   
 nav h1 {
     cursor: pointer;
     margin: 0 100px;
+    margin-left: 10%;
+    font-size: 30px;
+    color: rgb(113, 2, 67);
 }
 
 nav ul {
@@ -25,7 +29,12 @@ nav ul li {
 }
 
 nav ul li h2 {
-    padding: 0 30px;
+    padding: 0 10px;
+    transition-duration: 0.5s;
+}
+
+nav ul li h2:hover {
+    color: rgb(32, 32, 32);
 }
 
   

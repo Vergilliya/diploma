@@ -1,0 +1,40 @@
+.reset-sign {
+    position: absolute;
+    left: 1005px;
+    top: 111.81px;
+    width: 250px;
+    height: 75px;
+    background-color: #099;
+    color: white;
+    border: medium solid #099;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px px;
+    transition-duration: 0.5s;
+}
+
+.reset-sign:hover, .reset-route:hover {
+    background-color: white;
+    color: #099;
+}
+
+.reset-route {
+    position: absolute;
+    left: 1005px;
+    top: 202.81px;
+    width: 250px;
+    height: 75px;
+    background-color: #099;
+    color: white;
+    border: medium solid #099;;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px px;
+    transition-duration: 0.5s;
+}
+
+.map {
+    margin-left: 50px;
+    border: medium solid gray;
+    width: 1200px;
+}
